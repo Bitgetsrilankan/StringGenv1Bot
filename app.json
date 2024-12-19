@@ -14,34 +14,34 @@
     "repository": "https://github.com/SynaxBots/StringGenv1Bot",
     "env": {
       "API_ID": {
-        "description": "Get this value from https://my.telegram.org",
+        "description": "20711461",
         "value": "",
         "required": true
       },
       "API_HASH": {
-        "description": "Get this value from https://my.telegram.org",
+        "description": "9139542df3b004d5941593407fe1c4bb",
         "value": "",
         "required": true
       },
       "BOT_TOKEN": {
-        "description": "A Bot's token from Botfather",
+        "description": "7839378482:AAEsq38pzmGUqe7MXBEUtB-vExS_ISwdR9E",
         "value": "",
         "required": true
       },
       "OWNER_ID": {
-        "description": "Fill your user id here. (Must be integer)",
+        "description": "1481322134",
         "value": "",
         "required": true
       },
       "MONGO_DB_URI": {
-        "description": "Get this value from cloud.mongodb.com",
+        "description": "mongodb+srv://bitget:20030928@cluster0.jk909.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
         "value": "",
         "required": true
       }
     },
     "buildpacks": [
           {
-              "url": "heroku/python"
+              "url": "koyeb/python"
           }
       ],
       "stack": "container"
